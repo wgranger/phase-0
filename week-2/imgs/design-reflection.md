@@ -34,4 +34,4 @@ User experience determines just how easy it is for a visitor to navigate your we
 This challenge wasn't tedious, but there was some technical knowledge I didn't quite understand in some of the external links. It was interesting to read about how different image types effect page load times, but I feel like this was a good bit of information to take in all at once. I'll hopefully grasp the difference between different image types in the future.
 
 ![Image of sitemap]
-(sitemap.png)
+(week-2/imgs/sitemap.png)
