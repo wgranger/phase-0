@@ -23,7 +23,7 @@ I suppose the only questions I asked myself is how can I make a website stand ou
 I enjoyed getting my ideas down into a wireframe. Making some drafts and playing around with ideas was the most rewarding, especially because some things I thought were good ideas looked pretty bad once I actually took a look at them. Nothing was too tedious on this challenge. I imagine the tedious step will be realizing the design once I begin some HTML coding.
 
 ![Wireframe of main page]
-(week-2/imgs/wireframe-index.png)
+(imgs/wireframe-index.png)
 
 ![Wireframe of blog]
-(week-2/imgs/wireframe-blog-index-png)
+(imgs/wireframe-blog-index.png)
