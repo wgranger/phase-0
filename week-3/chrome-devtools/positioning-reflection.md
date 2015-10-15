@@ -18,29 +18,29 @@ What was your impression of this challenge overall? (love, hate, and why?)
 
 I enjoyed this challenge because it answered many questions I had about layout. I'm stil a bit curious how some other tags work (inline), but I'll have to do my own research to figure that out. It also seems that absolute, relative, etc. positioning will alter how your object appear inline. I think the Chrome devtools are the best resort when trying to understand how certain elements will affect the webpage.
 
-[EX.1]
+![EX.1]
 (imgs/3.4-1.png)
 
-[EX.2]
+![EX.2]
 (imgs/3.4-2.png)
 
-[EX.3]
+![EX.3]
 (imgs/3.4-3.png)
 
-[EX.4]
+![EX.4]
 (imgs/3.4-4.png)
 
-[EX.5]
+![EX.5]
 (imgs/3.4-5.png)
 
-[EX.6]
+![EX.6]
 (imgs/3.4-6.png)
 
-[EX.7]
+![EX.7]
 (imgs/3.4-7.png)
 
-[EX.8]
+![EX.8]
 (imgs/3.4-8.png)
 
-[EX.9]
+![EX.9]
 (imgs/3.4-9.png)
