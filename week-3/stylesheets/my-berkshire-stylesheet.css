@@ -1,0 +1,89 @@
+ html {
+  background-color: #ffffff;
+  color: #000080;
+}
+
+a:link {
+    color:#800080;
+}
+a:visited {
+    color:#ff0000;
+}
+ul > p {
+	font-size: .6em;
+}
+h2 {
+    font-weight:bold;
+    font-size: 1.25em;
+    text-align:center;
+}
+h2 span {
+	font-size: 2.25em;
+}
+h5 {
+    font-weight:bold;
+    text-align:center;
+    margin-top: -1em;
+}
+h4 {
+    font-weight:bold;
+    text-align:center;
+    margin-top: -1em;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	background: #d3d5d3;
+}
+section {
+	text-align: center;
+}
+
+/* What is important to know when linking an external file 
+(like a stylesheet) to an HTML file?
+
+We actually encountered this problem initially when trying to link
+to our CSS file using HTML. It's important that a programmer remembers
+to link to a previous folder if necessary (using the relative path).
+In our case, we had to include the "../" file path a couple of times
+to make sure the HTML file was taking a couple steps back before looking
+for the correct file where our stylesheet was stored.
+
+What tricks did you use to help you with positioning? 
+How hard was it to get the site as you wanted it?
+
+This was the toughest challenge we encountered with CSS, and it is
+a common problem that I encountered in my past work with CSS. We often 
+used negative spacing on top and bottom margins to ensure that our 
+positioning looked square. We also did a bit of research on the "column"
+tag, but we didn't notice that it had any effect on our code. I'm not sure
+if this tag is still being used. We eventually wound up changing a bit
+of our HTML code to position things correctly. It was a challenge to 
+get things in just the right place, and I'm curious how nitpicky I'll
+be in the future.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used some text styling in order to change the color and background.
+We also decided that em was a better way to size text rather than px (pixels).
+I have never played around with active and clicked URL links, so this
+challenge was the first time I played around with the color of these 
+elements. We played around most with font-size to make sure our code would
+match the output of the original site. 
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? 
+If you didn't, how would you know which one to add to your HTML?
+
+We only used class once in this document because we repeated the same 
+styling at several parts in the file. In our case, we might use an ID in
+the future if we wish to apply specific CSS styling to only one element.
+We would use class to apply styling to several of the same elements.
+
+When you compared your site to the actual code base, which do you 
+think had cleaner code that followed best practices and why?
+
+The original code looked a bit messy because I doubt it was using CSS;
+however, despite the code, the final product looked nice. As far as
+best practices, I suppose our code used best practices because there
+were several unnecessary elements and inline styling that were present
+in the other site.
