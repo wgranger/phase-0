@@ -31,3 +31,7 @@ Local variables are local to the code construction in which they are defined. A 
 How was this challenge? Did you get a good review of some of the basics?
 
 I'm glad I jumped into RSPEC, because it didn't really make much sense when reading about it or watching videos, but just trying it out on my own makes me more comfortable with testing out Ruby code. Now I just need to learn how to write the code that RSPEC scans. I was also a bit worried that I had forgotten Ruby altogether, but this challenge was a nice reintroduction into Ruby.
+
+[Simple String](https://github.com/wgranger/phase-0/blob/master/week-4/simple-string.rb)
+[Basic Math](https://github.com/wgranger/phase-0/blob/master/week-4/basic-math.rb)
+[Defining Variables](https://github.com/wgranger/phase-0/blob/master/week-4/defining-variables.rb)
