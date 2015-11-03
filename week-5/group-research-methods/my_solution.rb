@@ -7,11 +7,32 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 
 # Person 1's solution
 def my_array_finding_method(source, thing_to_find)
-  # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  answer = []
+  if source
+    source.each do |x|
+      if x.to_s.include? thing_to_find
+        answer << x.to_s
+      end
+    end
+  else
+    puts "Array is empty."
+  end
+  answer
 end
 
 def my_hash_finding_method(source, thing_to_find)
-  # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  solution = []
+
+  if source
+    source.each do |x, y|
+      if source[x] == thing_to_find
+        solution << x.to_s
+      end
+    end
+  else
+    puts "The Hash is empty"
+  end
+  solution
 end
 
 # Identify and describe the Ruby method(s) you implemented.
@@ -62,11 +83,15 @@ value.
 
 # Person 3
 def my_array_sorting_method(source)
-  # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.sort_by { |element|
+    element.to_s
+  }
 end
 
 def my_hash_sorting_method(source)
-   # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.sort_by { |name, age|
+    age
+  }
 end
 
 # Identify and describe the Ruby method(s) you implemented.
@@ -91,12 +116,14 @@ end
 
 
 # Person 5
-def my_array_splitting_method(source)
-  # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+def my_array_splitting_method(array)
+  num_array = array.grep(0..100)
+  str_array = array.grep(String)
+  return num_array, str_array
 end
 
-def my_hash_splitting_method(source, age)
-  # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+def my_hash_splitting_method(hash)
+  return hash.each_slice(1) {|slice| p slice}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
@@ -114,7 +141,9 @@ end
 
 # Release 3: Reflect!
 # What did you learn about researching and explaining your research to others?
-#
-#
+# 
+# I learned that there are a number of different ways to complete a task. 
+# Many of my cohort mates have found succinct ways to solve challenges, so
+# it's nice to use that as inspiration to constantly refactor my methods.
 #
 #
